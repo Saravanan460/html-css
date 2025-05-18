@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>image handling</title>
+</head>
+<body>
+    <style>
+        .thumbnail1,.thumblail2,.thumblail3{
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            margin-bottom: 3px;
+            object-position: center;
+        }
+        .vid-prv{
+            display: inline-block;
+            margin-right: 10px;
+        }
+    </style>
+    <div class="vid-prv">
+        <div>
+            <img class="thumbnail1" src="images\2928191733811243.jpg" >
+        </div>
+        <div>
+            object fit cover - object position center 
+        </div>
+     </div>
+
+
+     <style>
+        .thumbnail2{
+            width: 300px;
+            height: 300px;
+            object-fit: contain;
+            object-position: bottom;
+        }
+    </style>
+    <div class="vid-prv">
+        <div>
+            <img class="thumbnail2" src="images\2928191733811243.jpg" >
+        </div>
+        <div>
+            object fit contain - object position bottom
+        </div>
+     </div>
+
+
+      <style>
+        .thumbnail3{
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            object-position: left;
+        }
+    </style>
+    <div class="vid-prv">
+        <div>
+            <img class="thumbnail3" src="images\2928191733811243.jpg" >
+        </div>
+        <div >
+            object fit cover - object position left
+        </div>
+     </div>
+    
+ 
+</body>
+</html>
