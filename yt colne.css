@@ -130,8 +130,8 @@ body {
   cursor: pointer;
   transition:cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-,video:hover{
-  scale: 5% ;
+.video:hover{
+  zoom: 1;
 }
 
 .video img {
